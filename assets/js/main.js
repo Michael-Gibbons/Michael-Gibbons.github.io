@@ -103,8 +103,8 @@
 						return `
 							${$a.next('h3').text()}
 							<div>
-								<button class="button-small" > View Project <i class="fas fa-eye"></i></button>
-								<button class="button-small" > View Code <i class="far fa-code"></i></button>
+								<button class="button-small" > View Project <i class="fas fa-eye"></i> </button>
+								<button class="button-small" > View Code <i class="far fa-code"></i> </button>
 							</div>
 						` },
 					overlayColor: '#2c2c2c',
