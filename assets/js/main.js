@@ -103,8 +103,8 @@
 						return `
 							${$a.next('h3').text()}
 							<div>
-								<button class="button-small" > View Project <i class="fas fa-eye"></i> </button>
-								<button class="button-small" > View Code <i class="far fa-code"></i> </button>
+								<a style="text-decoration:none; border:none;" href="${$a.next('h3').data('project-link')}"><button class="button-small" > View Project <i class="fas fa-eye"></i> </button></a>
+								<a style="text-decoration:none; border:none;" href="${$a.next('h3').data('project-source')}"><button class="button-small" > View Code <i class="far fa-code"></i> </button></a>
 							</div>
 						` },
 					overlayColor: '#2c2c2c',
